@@ -18,7 +18,7 @@ Legend used in all diagrams:
 
 ```mermaid
 flowchart LR
-  CAM["Cameras / uploads<br/>/BackupPhotos/YYYY/EVENT/*.JPG"]:::io
+  CAM["photos uploads<br/>/BackupPhotos/YYYY/EVENT/*.JPG"]:::io
 
   subgraph S1["SERVER 1 - CPU ONLY (CUDA_VISIBLE_DEVICES empty, DEVICE=cpu)"]
     WATCH["Folder watcher<br/>watchdog thread + 1s loop"]:::cpu
