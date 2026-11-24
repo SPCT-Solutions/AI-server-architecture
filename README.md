@@ -10,7 +10,7 @@ Legend used in all diagrams:
 | Blue | CPU work |
 | Green | GPU work |
 | Amber | Disk / DB / network I/O |
-| Grey | External / not provided |
+
 
 ---
 
